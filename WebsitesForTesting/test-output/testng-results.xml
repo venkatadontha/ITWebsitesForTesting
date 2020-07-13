@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="103941" started-at="2020-07-13T23:48:55 BST" finished-at="2020-07-13T23:50:39 BST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="103941" started-at="2020-07-13T23:48:55 BST" finished-at="2020-07-13T23:50:39 BST">
+      <class name="BankingWebsites.Firefox.Barclays">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:BankingWebsites.Firefox.Barclays@6c49835d]" name="Initialise" is-config="true" duration-ms="5802" started-at="2020-07-13T23:48:55 BST" finished-at="2020-07-13T23:49:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="barclaysBank()[pri:0, instance:BankingWebsites.Firefox.Barclays@6c49835d]" name="barclaysBank" duration-ms="8638" started-at="2020-07-13T23:49:01 BST" finished-at="2020-07-13T23:49:09 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- barclaysBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingWebsites.Firefox.Barclays@6c49835d]" name="tearDown" is-config="true" duration-ms="1381" started-at="2020-07-13T23:49:09 BST" finished-at="2020-07-13T23:49:11 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankingWebsites.Firefox.Barclays -->
+      <class name="BankingWebsites.Firefox.HSBC">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:BankingWebsites.Firefox.HSBC@5e853265]" name="Initialise" is-config="true" duration-ms="4231" started-at="2020-07-13T23:49:11 BST" finished-at="2020-07-13T23:49:15 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="hsbcBank()[pri:0, instance:BankingWebsites.Firefox.HSBC@5e853265]" name="hsbcBank" duration-ms="8770" started-at="2020-07-13T23:49:15 BST" finished-at="2020-07-13T23:49:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hsbcBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingWebsites.Firefox.HSBC@5e853265]" name="tearDown" is-config="true" duration-ms="1825" started-at="2020-07-13T23:49:24 BST" finished-at="2020-07-13T23:49:25 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankingWebsites.Firefox.HSBC -->
+      <class name="BankingWebsites.Firefox.Santander">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:BankingWebsites.Firefox.Santander@7d0587f1]" name="Initialise" is-config="true" duration-ms="4228" started-at="2020-07-13T23:49:40 BST" finished-at="2020-07-13T23:49:44 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="santanderBank()[pri:0, instance:BankingWebsites.Firefox.Santander@7d0587f1]" name="santanderBank" duration-ms="6472" started-at="2020-07-13T23:49:44 BST" finished-at="2020-07-13T23:49:51 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- santanderBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingWebsites.Firefox.Santander@7d0587f1]" name="tearDown" is-config="true" duration-ms="2321" started-at="2020-07-13T23:49:51 BST" finished-at="2020-07-13T23:49:53 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankingWebsites.Firefox.Santander -->
+      <class name="BankingWebsites.Firefox.LloydsBank">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:BankingWebsites.Firefox.LloydsBank@67205a84]" name="Initialise" is-config="true" duration-ms="5643" started-at="2020-07-13T23:49:25 BST" finished-at="2020-07-13T23:49:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="lloydsBank()[pri:0, instance:BankingWebsites.Firefox.LloydsBank@67205a84]" name="lloydsBank" duration-ms="7144" started-at="2020-07-13T23:49:31 BST" finished-at="2020-07-13T23:49:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lloydsBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingWebsites.Firefox.LloydsBank@67205a84]" name="tearDown" is-config="true" duration-ms="1684" started-at="2020-07-13T23:49:38 BST" finished-at="2020-07-13T23:49:40 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankingWebsites.Firefox.LloydsBank -->
+      <class name="BankingWebsites.Firefox.TescoBank">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:BankingWebsites.Firefox.TescoBank@2a17b7b6]" name="Initialise" is-config="true" duration-ms="5577" started-at="2020-07-13T23:50:21 BST" finished-at="2020-07-13T23:50:27 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="tescoBank()[pri:0, instance:BankingWebsites.Firefox.TescoBank@2a17b7b6]" name="tescoBank" duration-ms="9559" started-at="2020-07-13T23:50:27 BST" finished-at="2020-07-13T23:50:36 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tescoBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingWebsites.Firefox.TescoBank@2a17b7b6]" name="tearDown" is-config="true" duration-ms="2420" started-at="2020-07-13T23:50:36 BST" finished-at="2020-07-13T23:50:39 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankingWebsites.Firefox.TescoBank -->
+      <class name="BankingWebsites.Firefox.CitiBank">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:BankingWebsites.Firefox.CitiBank@5d76b067]" name="Initialise" is-config="true" duration-ms="4208" started-at="2020-07-13T23:49:53 BST" finished-at="2020-07-13T23:49:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="citiBank()[pri:0, instance:BankingWebsites.Firefox.CitiBank@5d76b067]" name="citiBank" duration-ms="22249" started-at="2020-07-13T23:49:57 BST" finished-at="2020-07-13T23:50:19 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingWebsites.Firefox.CitiBank@5d76b067]" name="tearDown" is-config="true" duration-ms="1689" started-at="2020-07-13T23:50:19 BST" finished-at="2020-07-13T23:50:21 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankingWebsites.Firefox.CitiBank -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

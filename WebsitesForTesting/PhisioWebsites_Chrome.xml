@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="PhisioWebsites.Chrome.LakkiPhisio"/>
+      <class name="PhisioWebsites.Chrome.PhisicalBalance"/>
+      <class name="PhisioWebsites.Chrome.OpticalCenter"/>
+      <class name="PhisioWebsites.Chrome.BMIHealthCare"/>
+      <class name="PhisioWebsites.Chrome.PhisicalLogical"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
